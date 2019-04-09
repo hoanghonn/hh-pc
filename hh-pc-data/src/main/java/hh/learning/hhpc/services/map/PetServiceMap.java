@@ -1,11 +1,11 @@
 package hh.learning.hhpc.services.map;
 
 import hh.learning.hhpc.model.Pet;
-import hh.learning.hhpc.services.CrudService;
+import hh.learning.hhpc.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap  extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap  extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
