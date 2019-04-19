@@ -2,9 +2,11 @@ package hh.learning.hhpc.services.map;
 
 import hh.learning.hhpc.model.Pet;
 import hh.learning.hhpc.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap  extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
